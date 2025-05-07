@@ -7,8 +7,8 @@ function Giocodadi(tiri) {
     let player2 = 0;
 
     for (let i = 0; i < tiri; i++) {
-        let player1Roll = Math.floor(Math.random()*6)+1;
-        let player2Roll = Math.floor(Math.random()*6)+1;
+        let player1Roll = Math.floor(Math.random() * 6) + 1;
+        let player2Roll = Math.floor(Math.random() * 6) + 1;
 
         player1 = player1 + player1Roll
         player2 = player2 + player2Roll   
